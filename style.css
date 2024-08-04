@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+body{
+    color: blanchedalmond;
+    background: rgb(8, 8, 53);
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: #051129;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.img-box img{
+    border-radius: 50%;
+    width: 25rem;
+    height: 25rem;
+    box-shadow: 0 0 10px rgb(124, 48, 175),0 0 25px rgb(223, 53, 223);
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(30, 160, 160);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+
+}
+.navbar a:hover{
+    color:rgb(189, 189, 72);
+}
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background:rgb(8, 8, 53);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.home-content {
+    max-width: 600px;
+}
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 300;
+    margin: -3px 0;
+}
+.home-content p {
+    font-size: 20px;
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    background: yellow;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 0 5px #0ef,0 0 25px  rgb(92, 160, 165)
+
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 7fr);
+    align-items: center;
+    gap: 2.5rem;
+    font-size: large;
+
+}
+.about-img img{
+    width: 20rem;
+    height: 20rem;
+    margin: 250px;
+    box-shadow: 0 0 10px rgb(152, 34, 231),0 0 25px cyan;
+    
+
+}
+.about-img img{
+    -webkit-box-reflect:below -80px linear-gradient(to bottom, rgba(0, 0, 0, 0.0),rgb(0, 0, 0, 0.2));
+}
+.about-text h2{
+    font-size: 50px;
+
+}
+.about-text h2 span{
+    color: #0ef;
+}
+.about-text p{
+    color: aliceblue;
+    font-size: 3px;
+    font-family:'Times New Roman', Times, serif ;
+    margin-bottom: 4rem;
+    font-size: 18px;
+    font-weight: 250;
+    margin: -3px 0;
+}
+.contact-form h2{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+    text-shadow: 0 0 5px orangered,0 0 5px rgb(183, 0, 255);
+}
+.contact-form form{
+    max-width: 30em;
+    margin: 1em auto;
+    text-align: center;
+    margin-bottom: 1em;
+    
+}
+.contact-form form .input-box input,
+.contact-form form textarea{
+    width: 100%;
+    padding: 1em;
+    font-size: 16px;
+    color: black;
+    background: white;
+    margin: 1rem 0;
+    resize: none;
+    border: 3px solid #810b1f;
+}
+.btn-1{
+    display: inline-block;
+    padding: 12px 28px;
+    background: yellow;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+.footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 2px solid orangered;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px orangered,0 0 10px orangered;
+    transition: 0.3s ease;
+}
+.footer .social a:hover{
+    border-bottom: 12px solid orangered;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3 ease;
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid orangered;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+.project h1{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+    color: rgb(226, 25, 209)
+}
+.container2{
+
+    text-align: center;
+}
+.container2 .core {
+    border: solid 1px;
+    color: rgb(205, 224, 241);
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+    text-align: center;
+   
+}
+.container2 .core {
+    border: solid 1px;
+    color: rgb(198, 214, 228);
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.container2 .qr{
+    color: rgb(250, 242, 242);
+    margin: 30px;
+    padding: 1px;
+}
